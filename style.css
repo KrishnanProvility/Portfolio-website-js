@@ -5,26 +5,19 @@
     box-sizing:border-box;
 
 }
+
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
 .hero{
     height:100vh;
     width:100% ;
     background-image: url(./images/IMG_8895\ \(1\)-1.jpg);
     background-size: cover;
     background-position: center;
-}
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 45px;
-    padding-left: 8%;
-    padding-right: 8%;
-}
-.logo{
-    color: white;
-    font-size: 35px;
-    letter-spacing: 1px;
-    cursor: pointer;
 }
 span{
     color: orange;
@@ -68,11 +61,7 @@ nav ul li a:hover{
     left: 8%;
     transform:translateY(-50%) ;
 }
-h1{
-    color: white;
-    margin: 20px 0px 20px;
-    font-size: 75px;
-}
+
 h3{
     color: white;
     font-size: 25px;
@@ -263,16 +252,7 @@ h5{
     transition: .4s ;
     border: 2px solid  rgb(255, 174, 0); cursor: pointer;
 }
-footer{
-    position: relative;
-    width: 100%;
-    height: 480px;
-    background: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
+
 footer p:nth-child(1){
     color: white;
     font-size: 30px;
@@ -291,6 +271,11 @@ footer p:nth-child(2)
 .social{
     display: flex;
 
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
 }
 .social a{
     width: 45px;
@@ -314,4 +299,24 @@ footer p:nth-child(2)
     color: orange;
     bottom: 35px;
     
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 480px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
